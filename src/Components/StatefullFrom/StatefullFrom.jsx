@@ -29,7 +29,7 @@ const StatefullFrom = () => {
     }
 
     const handelEmailChange = e=>{
-        // console.log(e.target.value)
+        console.log(e.target.value) 
         setEmail(e.target.value)
 
     }
